@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "ts-node ./src/01_model.ts"
+  },
   "name": "lcangchaindemo",
   "version": "1.0.0",
   "main": "index.js",
@@ -13,5 +16,8 @@
     "hnswlib-node": "^1.4.2",
     "langchain": "^0.0.75",
     "openai": "^3.2.1"
+  },
+  "volta": {
+    "node": "18.16.0"
   }
 }
